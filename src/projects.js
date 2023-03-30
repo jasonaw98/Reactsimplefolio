@@ -1,3 +1,4 @@
+import multisig from './assets/MultiSig.png';
 const projects = [
   {
     title: "Multi-Sig Vault",
@@ -5,7 +6,7 @@ const projects = [
       "Users can create a safe vault where they can add multiple Owners and set a Threshold required to perform any transactions. Transaction will only be executed once total confirmations have reached.",
     liveLink: "",
     sourceLink: "https://github.com/jasonaw98/MultiSig-ContractFactory",
-    imageSrc: "Multisig.07a5da7d.png",
+    imageSrc: multisig,
   },
   {
     title: "Solana GIF Dapp",
@@ -13,7 +14,7 @@ const projects = [
       "A DAPP build on Solana Blockchain where users able to view and submit their favorite Electric Cars GIF or Images link. Build on Devnet and Sol Devnet is required.",
     liveLink: "https://solana-dapp-lake.vercel.app/",
     sourceLink: "https://github.com/jasonaw98/SolanaDapp",
-    imageSrc: "SolDapp.2c07d1ef.png",
+    imageSrc: './assets/MultiSig.png',
   },
   {
     title: "Solana NFT App with Metaplex",
@@ -21,7 +22,7 @@ const projects = [
       "Users can use this Web App to mint their Marvel Avenger Themed NFT! Some Devnet Sol is required to mint successfully.",
     liveLink: "https://solana-nft-two-theta.vercel.app/",
     sourceLink: "https://github.com/jasonaw98/Solana-NFT",
-    imageSrc: "SolNFT.cf564b42.png",
+    imageSrc: "SolNFT.png",
   },
   {
     title: "DeFi Exchange",
@@ -29,7 +30,7 @@ const projects = [
       "A DeFi Exchange Dapp where users would able to add tokens into liquidity pools and get LP Tokens in return.",
     liveLink: "https://de-fi-exchange-app.vercel.app/",
     sourceLink: "https://github.com/jasonaw98/DeFi-ExchangeApp",
-    imageSrc: "DeFi.a7a9cac6.png",
+    imageSrc: "DeFi.png",
   },
   {
     title: "Native Coin Mint",
@@ -37,7 +38,7 @@ const projects = [
       "Users can come here to mint the native tokens to be able to contribute and participate in the DeFi app to add their tokens in to the liquidity pools and earn LP Tokens!",
     liveLink: "https://initial-coin-offer.vercel.app/",
     sourceLink: "https://github.com/jasonaw98/Initial-Coin-Offer",
-    imageSrc: "ICO.a3c1a64c.png",
+    imageSrc: "ICO.png",
   },
   {
     title: "Polygon Name Service",
@@ -45,7 +46,7 @@ const projects = [
       "A web app that let users purchase their very own marvel domain name and it comes with an unique NFT. Feel free to mint one!",
     liveLink: "https://domain-starter-project.jasonaw98.repl.co/",
     sourceLink: "https://github.com/jasonaw98/Domain-name-service-Polygon",
-    imageSrc: "MNS.d4ce70b6.png",
+    imageSrc: "MNS.png",
   },
   {
     title: "DAO",
@@ -53,7 +54,7 @@ const projects = [
       "This is a fully functional DAO with voting and treasury capabilities. Users can sign up and mint an NFT to become a member and receive Governence Token to vote. Click to check out!",
     liveLink: "https://buildspace-dao-starter-v2.jasonaw98.repl.co/",
     sourceLink: "https://github.com/jasonaw98/MyFirstDAO",
-    imageSrc: "firstdao.a72a0b4f.png",
+    imageSrc: "firstdao.png",
   },
   {
     title: "MemeCoin Crypto",
@@ -61,7 +62,7 @@ const projects = [
       "This is a real Memecoin deployed onto the Rinkeby Testnet where users are able to request and transfer Crypto. It also contains a burn function to control infaltion. Click to check out!",
     liveLink: "https://jasonaw98.github.io/memecoin.github.io/",
     sourceLink: "https://github.com/jasonaw98/memecoin.github.io/tree/main",
-    imageSrc: "/memecoin.f78afd84.png",
+    imageSrc: "/memecoin.png",
   },
   {
     title: "Python Web Automation",
@@ -69,7 +70,7 @@ const projects = [
       "This project is build on Python and Selenium to automate filling out forms and surveys. Click to check out!",
     liveLink: "https://github.com/jasonaw98/WebAutomation",
     sourceLink: "https://github.com/jasonaw98/WebAutomation",
-    imageSrc: "/project.f500882b.jpg",
+    imageSrc: "/project.jpg",
   },
 ];
 
